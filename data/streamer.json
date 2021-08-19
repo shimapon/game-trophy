@@ -1,0 +1,86 @@
+[
+  {
+    "name": "もこう",
+    "channelID": "UCENoC6MLc4pL-vehJyzSWmg",
+    "youtubeURL": "https://www.youtube.com/channel/UCENoC6MLc4pL-vehJyzSWmg",
+    "bannerURL": "https://lh3.googleusercontent.com/lsMzOZjj1iAkzcmqRmzKcnp6nUe4EPYxR67Yg6BWHEbl2v67SjuSaQFTnYfc0Pzqup_9s12iSYo",
+    "content": {
+      "complete": [
+        {
+          "title": "ソロ武神闘宴",
+          "thumnail": "https://i.ytimg.com/vi/HjN45hxsKGE/sddefault.jpg",
+          "description": "クソむずいらしい"
+        }
+      ],
+      "challenge": [
+        {
+          "title": "ぷよぷよ24連勝",
+          "thumnail": "https://i.ytimg.com/vi/v9l_uWClmUA/sddefault.jpg",
+          "description": "2月4日はぷよの日！"
+        }
+      ]
+    }
+  },
+  {
+    "name": "兄者弟者",
+    "channelID": "UC2GuoutVyegg6PUK88lLpjw",
+    "youtubeURL": "https://www.youtube.com/channel/UC2GuoutVyegg6PUK88lLpjw",
+    "bannerURL": "https://lh3.googleusercontent.com/9i57-I0Y_KS97XAr6W7OHgMc_Y5145v0kP9G26cmtacHP3RVzRs0tnfl6mtg4OU20CM8sKfN",
+    "content": {
+      "complete": [{ "title": "", "thumnail": "", "description": "" }],
+      "challenge": [{ "title": "", "thumnail": "", "description": "" }]
+    }
+  },
+  {
+    "name": "加藤純一",
+    "channelID": "UCx1nAvtVDIsaGmCMSe8ofsQ",
+    "youtubeURL": "https://www.youtube.com/channel/UCx1nAvtVDIsaGmCMSe8ofsQ",
+    "bannerURL": "https://lh3.googleusercontent.com/ONWTCyU-CpB3RV7xxkCODhPDPjk3yywC7DF0EHOaqaxnvKmNKSPowqFbCArQChlGw52peKMTAA",
+    "content": {
+      "complete": [
+        {
+          "title": "金ダツラ",
+          "thumnail": "https://i.ytimg.com/vi/fUi6uKRd1XA/hqdefault.jpg",
+          "description": "いつ終わるんだ"
+        },
+        {
+          "title": "JUMPKINGクリア",
+          "thumnail": "https://cdn.akamai.steamstatic.com/steam/apps/1061090/header_alt_assets_3.jpg?t=1617028032",
+          "description": "jump king クリアするまでやってよかった。"
+        },
+        {
+          "title": "トルネコ３ポポロ異世界の試練クリア",
+          "thumnail": "https://i.ytimg.com/vi/ZEPRGYkzeiY/sddefault.jpg",
+          "description": "いけます"
+        },
+        {
+          "title": "ノーコンテSEKIROクリア",
+          "thumnail": "https://i.ytimg.com/vi/HaNh_jRc8Qk/hqdefault.jpg",
+          "description": "やる"
+        },
+        {
+          "title": "プラチナ：ポケモンセンターの終了のお知らせ",
+          "thumnail": "https://i.ytimg.com/vi/FZAuGtQfRkg/sddefault.jpg",
+          "description": "※放送のルール ポケモンセンター利用禁止　ショップ利用禁止 サファリパーク利用禁止　　パソコン利用禁止 育て屋さん利用禁止 技忘れて覚えなおすの禁止 野生ポケモン倒すの禁止　　無限禁止（無限にアイテム手に入る場所や技）その他、客観的に見てずるい技禁止　文明の利器禁止（攻略サイトの閲覧等）特性：もの拾い禁止　伝説のポケモンは伝説 ポケモンを大切にする　秘伝マシンの複数回使用禁止 色違いが出たら必ず捕まえる"
+        }
+      ],
+      "challenge": [
+        {
+          "title": "[プラチナ]金ネジキ",
+          "thumnail": "https://i.ytimg.com/vi/mqzNTwkDi6Y/sddefault.jpg",
+          "description": "ﾛｼﾞｶﾙﾈｼﾞｷ"
+        },
+        {
+          "title": "ダークソウル３　ＤＬＣ含めﾉｰﾃﾞｽ・ﾉｰｺﾝ・ﾉｰﾊﾟﾘｨクリア",
+          "thumnail": "https://i.ytimg.com/vi/1asqOum0Hhc/sddefault.jpg",
+          "description": "やるつもりなんてなかったのに、気が付いたらそこにいた放送。※放送のルール ダークソウル３DLC含む全ボスﾉｰﾃﾞｽ・ﾉｰｺﾝ・ﾉｰﾊﾟﾘｨ撃破"
+        },
+        {
+          "title": "ハードコアエンダードラゴン撃破",
+          "thumnail": "https://i.ytimg.com/vi/1asqOum0Hhc/sddefault.jpg",
+          "description": "今日はマインクラフトのハードコアモードをやってみようと思います。"
+        }
+      ]
+    }
+  }
+]

@@ -9,7 +9,6 @@ type Props = {
 
 // この関数がビルド時に呼び出され、戻り値の props の値がページコンポーネントに渡される
 export const getStaticProps: GetStaticProps<Props> = async (context) => {
-  // const channelID = "UCx1nAvtVDIsaGmCMSe8ofsQ";
   const channelID = "UCXBgKqFxSjKADEuMLkc1Bpg";
 
   const res = await fetch(
@@ -55,7 +54,9 @@ export const getStaticProps: GetStaticProps<Props> = async (context) => {
 };
 
 const Index: React.FC<Props> = ({ channel_data }) => {
-  console.log(channel_data);
+  const snippet_data = channel_data[0].items[0].snippet;
+  const brandingSettings_data = channel_data[1].items[0].brandingSettings;
+  const statics_data = channel_data[2].items[0].statistics;
 
   return (
     <div>
@@ -68,26 +69,20 @@ const Index: React.FC<Props> = ({ channel_data }) => {
       <main className="m-2">
         <p className="text-4xl my-2">Snippet</p>
 
-        {channel_data[0].items &&
-          channel_data[0].items.map((d: any, index: number) => {
-            return (
-              <div key={d.id}>
-                <ul>
-                  <li>Channel ID：{d.id}</li>
-                  <li>Title：{d.snippet.title}</li>
-                  <li>cunstomUrl：{d.snippet.customUrl}</li>
-                  <li>Description：{d.snippet.description}</li>
-                  <li>
-                    Thumbnails：
-                    <img
-                      src={d.snippet.thumbnails.default.url}
-                      alt={d.snippet.title}
-                    />
-                  </li>
-                </ul>
-              </div>
-            );
-          })}
+        {channel_data[0].items && (
+          <ul>
+            <li>Title：{snippet_data.title}</li>
+            <li>cunstomUrl：{snippet_data.customUrl}</li>
+            <li>Description：{snippet_data.description}</li>
+            <li>
+              Thumbnails：
+              <img
+                src={snippet_data.thumbnails.default.url}
+                alt={snippet_data.title}
+              />
+            </li>
+          </ul>
+        )}
 
         <p className="text-4xl my-2">brandingSettings</p>
 
@@ -95,14 +90,8 @@ const Index: React.FC<Props> = ({ channel_data }) => {
           <div>
             bannerExternalUrl：
             <img
-              src={
-                channel_data[1].items[0].brandingSettings.image
-                  .bannerExternalUrl
-              }
-              alt={
-                channel_data[1].items[0].brandingSettings.channel.title +
-                "Banner"
-              }
+              src={brandingSettings_data.image.bannerExternalUrl}
+              alt={brandingSettings_data.channel.title + "Banner"}
             />
           </div>
         )}
@@ -113,22 +102,15 @@ const Index: React.FC<Props> = ({ channel_data }) => {
           <ul>
             <li>
               再生回数：
-              {channel_data[2].items[0].statistics.viewCount}
-            </li>
-            <li>
-              コメント数：{channel_data[2].items[0].statistics.commentCount}
+              {statics_data.viewCount}
             </li>
             <li>
               登録者数：
-              {channel_data[2].items[0].statistics.subscriberCount}
+              {statics_data.subscriberCount}
             </li>
             <li>
               アップロードされた動画の数：
-              {channel_data[2].items[0].statistics.videoCount}
-            </li>
-            <li>
-              アップロードされた動画の数：
-              {channel_data[2].items[0].statistics.videoCount}
+              {statics_data.videoCount}
             </li>
           </ul>
         )}
