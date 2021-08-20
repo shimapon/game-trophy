@@ -1,0 +1,42 @@
+[
+  {
+    "Title": "Undertale サンズ戦",
+    "shortTitle": "サンズ",
+    "thumnail": "https://img.altema.jp/undertale/uploads/2020/07/2020y07m29d_1500566929.jpg",
+    "description": "サンズを撃破する[Undertale]",
+    "gameIMG": "https://yt3.ggpht.com/p7p5_UNJ2Ota86RUUM-9S9wlc9XxzvelmHajb5CoDCDYp6uwFdC2VR4y_PHyZl7oNEFQw0bPtS4=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "Undertale"
+  },
+  {
+    "Title": "Undertale サンズ戦（アイテムなし）",
+    "shortTitle": "サンズ(アイテムなし)",
+    "thumnail": "https://img.altema.jp/undertale/uploads/2020/07/2020y07m29d_1500566929.jpg",
+    "description": "アイテムを使用せず、サンズを撃破する[Undertale]",
+    "gameIMG": "https://yt3.ggpht.com/p7p5_UNJ2Ota86RUUM-9S9wlc9XxzvelmHajb5CoDCDYp6uwFdC2VR4y_PHyZl7oNEFQw0bPtS4=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "Undertale"
+  },
+  {
+    "Title": "ポケットモンスター プラチナ -金ネジキ-",
+    "shortTitle": "金ネジキ[Pt]",
+    "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
+    "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する[ポケットモンスター プラチナ]",
+    "gameIMG": "https://yt3.ggpht.com/mL70OpfPfw7UrOREowIVGCFONs9LAi8eo7Qg4gDy__qwV0Swt6-dYUsGYPTvLq_k69JV_LHh5w=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "ポケットモンスター プラチナ"
+  },
+  {
+    "Title": "ポケットモンスター ハートゴールド・ソウルシルバー -金ネジキ-",
+    "shortTitle": "金ネジキ[HGSS]",
+    "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
+    "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する[ポケットモンスター ハートゴールド・ソウルシルバー]",
+    "gameIMG": "https://yt3.ggpht.com/mL70OpfPfw7UrOREowIVGCFONs9LAi8eo7Qg4gDy__qwV0Swt6-dYUsGYPTvLq_k69JV_LHh5w=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "ポケットモンスター プラチナ"
+  },
+  {
+    "Title": "ポケットモンスター エメラルド -金ダツラ-",
+    "shortTitle": "金ダツラ",
+    "thumnail": "https://i.ytimg.com/vi/fUi6uKRd1XA/hqdefault.jpg",
+    "description": "「バトルファクトリー」のファクトリーヘッドの42戦目のフロンティアブレーン「ダツラ」に勝利する[ポケットモンスター エメラルド]",
+    "gameIMG": "https://yt3.ggpht.com/_ilHfmg76S4Vkaz3Rwe708IWtof4EEndppoIBMc-fjycwvMj7-AJ8eRYzq7Ai5cL5TQnyhnyyAM=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "ポケットモンスター エメラルド"
+  }
+]

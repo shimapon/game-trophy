@@ -3,12 +3,21 @@
     "name": "もこう",
     "channelID": "UCENoC6MLc4pL-vehJyzSWmg",
     "youtubeURL": "https://www.youtube.com/channel/UCENoC6MLc4pL-vehJyzSWmg",
+    "twitchURL": "https://www.twitch.tv/mokouliszt1",
     "bannerURL": "https://lh3.googleusercontent.com/lsMzOZjj1iAkzcmqRmzKcnp6nUe4EPYxR67Yg6BWHEbl2v67SjuSaQFTnYfc0Pzqup_9s12iSYo",
     "content": {
       "complete": [
         {
           "title": "ソロ武神闘宴",
           "thumnail": "https://i.ytimg.com/vi/HjN45hxsKGE/sddefault.jpg",
+          "videoID": "HjN45hxsKGE",
+
+          "description": "クソむずいらしい"
+        },
+        {
+          "title": "Undertale サンズ戦",
+          "thumnail": "https://img.altema.jp/undertale/uploads/2020/07/2020y07m29d_1500566929.jpg",
+          "videoID": "MH5aJG6Hkuk",
           "description": "クソむずいらしい"
         }
       ],
@@ -16,7 +25,15 @@
         {
           "title": "ぷよぷよ24連勝",
           "thumnail": "https://i.ytimg.com/vi/v9l_uWClmUA/sddefault.jpg",
+          "videoID": "v9l_uWClmUA",
+
           "description": "2月4日はぷよの日！"
+        },
+        {
+          "title": "[プラチナ]金ネジキ",
+          "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
+          "videoID": "3G7sSZ-NuDM",
+          "description": "やるぞ"
         }
       ]
     }
@@ -25,60 +42,81 @@
     "name": "兄者弟者",
     "channelID": "UC2GuoutVyegg6PUK88lLpjw",
     "youtubeURL": "https://www.youtube.com/channel/UC2GuoutVyegg6PUK88lLpjw",
-    "bannerURL": "https://lh3.googleusercontent.com/9i57-I0Y_KS97XAr6W7OHgMc_Y5145v0kP9G26cmtacHP3RVzRs0tnfl6mtg4OU20CM8sKfN",
-    "content": {
-      "complete": [{ "title": "", "thumnail": "", "description": "" }],
-      "challenge": [{ "title": "", "thumnail": "", "description": "" }]
-    }
+    "bannerURL": "https://lh3.googleusercontent.com/9i57-I0Y_KS97XAr6W7OHgMc_Y5145v0kP9G26cmtacHP3RVzRs0tnfl6mtg4OU20CM8sKfN"
   },
   {
     "name": "加藤純一",
     "channelID": "UCx1nAvtVDIsaGmCMSe8ofsQ",
     "youtubeURL": "https://www.youtube.com/channel/UCx1nAvtVDIsaGmCMSe8ofsQ",
+    "twitchURL": "https://www.twitch.tv/kato_junichi0817",
     "bannerURL": "https://lh3.googleusercontent.com/ONWTCyU-CpB3RV7xxkCODhPDPjk3yywC7DF0EHOaqaxnvKmNKSPowqFbCArQChlGw52peKMTAA",
     "content": {
       "complete": [
         {
           "title": "金ダツラ",
           "thumnail": "https://i.ytimg.com/vi/fUi6uKRd1XA/hqdefault.jpg",
-          "description": "いつ終わるんだ"
+          "videoID": "fUi6uKRd1XA",
+          "description": "いつ終わるんだ",
+          "cleartime": "50時間"
         },
         {
           "title": "JUMPKINGクリア",
           "thumnail": "https://cdn.akamai.steamstatic.com/steam/apps/1061090/header_alt_assets_3.jpg?t=1617028032",
-          "description": "jump king クリアするまでやってよかった。"
+          "videoID": "izFZdOfs0z0",
+          "description": "jump king クリアするまでやってよかった。",
+          "cleartime": "10時間"
         },
         {
           "title": "トルネコ３ポポロ異世界の試練クリア",
           "thumnail": "https://i.ytimg.com/vi/ZEPRGYkzeiY/sddefault.jpg",
-          "description": "いけます"
+          "videoID": "jHKrEltCM50",
+          "description": "いけます",
+          "cleartime": "80時間"
         },
         {
           "title": "ノーコンテSEKIROクリア",
           "thumnail": "https://i.ytimg.com/vi/HaNh_jRc8Qk/hqdefault.jpg",
-          "description": "やる"
+          "videoID": "HaNh_jRc8Qk",
+          "description": "やる",
+          "cleartime": "30時間"
         },
         {
           "title": "プラチナ：ポケモンセンターの終了のお知らせ",
           "thumnail": "https://i.ytimg.com/vi/FZAuGtQfRkg/sddefault.jpg",
-          "description": "※放送のルール ポケモンセンター利用禁止　ショップ利用禁止 サファリパーク利用禁止　　パソコン利用禁止 育て屋さん利用禁止 技忘れて覚えなおすの禁止 野生ポケモン倒すの禁止　　無限禁止（無限にアイテム手に入る場所や技）その他、客観的に見てずるい技禁止　文明の利器禁止（攻略サイトの閲覧等）特性：もの拾い禁止　伝説のポケモンは伝説 ポケモンを大切にする　秘伝マシンの複数回使用禁止 色違いが出たら必ず捕まえる"
+          "videoID": "A72RBAILWo0",
+          "description": "※放送のルール ポケモンセンター利用禁止　ショップ利用禁止 サファリパーク利用禁止　　パソコン利用禁止 育て屋さん利用禁止 技忘れて覚えなおすの禁止 野生ポケモン倒すの禁止　　無限禁止（無限にアイテム手に入る場所や技）その他、客観的に見てずるい技禁止　文明の利器禁止（攻略サイトの閲覧等）特性：もの拾い禁止　伝説のポケモンは伝説 ポケモンを大切にする　秘伝マシンの複数回使用禁止 色違いが出たら必ず捕まえる",
+          "cleartime": "20時間"
+        },
+        {
+          "title": "Undertale サンズ戦(アイテムなし)",
+          "thumnail": "https://img.altema.jp/undertale/uploads/2020/07/2020y07m29d_1500566929.jpg",
+          "videoID": "STwWaDgGqeQ",
+          "description": "敗北を知りたいんだ",
+          "cleartime": "6時間"
         }
       ],
       "challenge": [
         {
           "title": "[プラチナ]金ネジキ",
-          "thumnail": "https://i.ytimg.com/vi/mqzNTwkDi6Y/sddefault.jpg",
-          "description": "ﾛｼﾞｶﾙﾈｼﾞｷ"
+          "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
+          "videoID": "mqzNTwkDi6Y",
+          "description": "ﾛｼﾞｶﾙﾈｼﾞｷ",
+          "playtime": "50時間"
         },
         {
           "title": "ダークソウル３　ＤＬＣ含めﾉｰﾃﾞｽ・ﾉｰｺﾝ・ﾉｰﾊﾟﾘｨクリア",
           "thumnail": "https://i.ytimg.com/vi/1asqOum0Hhc/sddefault.jpg",
-          "description": "やるつもりなんてなかったのに、気が付いたらそこにいた放送。※放送のルール ダークソウル３DLC含む全ボスﾉｰﾃﾞｽ・ﾉｰｺﾝ・ﾉｰﾊﾟﾘｨ撃破"
+          "videoID": "1asqOum0Hhc",
+
+          "description": "やるつもりなんてなかったのに、気が付いたらそこにいた放送。※放送のルール ダークソウル３DLC含む全ボスﾉｰﾃﾞｽ・ﾉｰｺﾝ・ﾉｰﾊﾟﾘｨ撃破",
+          "playtime": "20時間"
         },
         {
           "title": "ハードコアエンダードラゴン撃破",
-          "thumnail": "https://i.ytimg.com/vi/1asqOum0Hhc/sddefault.jpg",
-          "description": "今日はマインクラフトのハードコアモードをやってみようと思います。"
+          "thumnail": "https://png.pngitem.com/pimgs/s/23-235837_minecraft-hardcore-world-record-broken-philza-minecraft-hardcore.png",
+          "videoID": "kY_pJu46TiQ",
+          "description": "今日はマインクラフトのハードコアモードをやってみようと思います。",
+          "playtime": "30時間"
         }
       ]
     }
