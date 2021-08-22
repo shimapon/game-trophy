@@ -76,7 +76,7 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
                   <img
                     src={gamedata.thumnail}
                     alt={gamedata.shortTitle + "IMG"}
-                    className="opacity-60"
+                    className="opacity-70 object-cover h-24 w-full"
                   />
                   <p className="whitespace-nowrap font-serif text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-base p-2 opacity-100 border-solid border-2">
                     {gamedata.shortTitle}

@@ -3,7 +3,7 @@
     "Title": "Undertale サンズ戦",
     "shortTitle": "サンズ",
     "thumnail": "https://img.altema.jp/undertale/uploads/2020/07/2020y07m29d_1500566929.jpg",
-    "description": "サンズを撃破する[Undertale]",
+    "description": "サンズを撃破する",
     "gameIMG": "https://yt3.ggpht.com/p7p5_UNJ2Ota86RUUM-9S9wlc9XxzvelmHajb5CoDCDYp6uwFdC2VR4y_PHyZl7oNEFQw0bPtS4=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
     "game_name": "Undertale"
   },
@@ -11,7 +11,7 @@
     "Title": "Undertale サンズ戦（アイテムなし）",
     "shortTitle": "サンズ(アイテムなし)",
     "thumnail": "https://img.altema.jp/undertale/uploads/2020/07/2020y07m29d_1500566929.jpg",
-    "description": "アイテムを使用せず、サンズを撃破する[Undertale]",
+    "description": "アイテムを使用せず、サンズを撃破する",
     "gameIMG": "https://yt3.ggpht.com/p7p5_UNJ2Ota86RUUM-9S9wlc9XxzvelmHajb5CoDCDYp6uwFdC2VR4y_PHyZl7oNEFQw0bPtS4=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
     "game_name": "Undertale"
   },
@@ -19,7 +19,7 @@
     "Title": "ポケットモンスター プラチナ -金ネジキ-",
     "shortTitle": "金ネジキ[Pt]",
     "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
-    "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する[ポケットモンスター プラチナ]",
+    "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する",
     "gameIMG": "https://yt3.ggpht.com/mL70OpfPfw7UrOREowIVGCFONs9LAi8eo7Qg4gDy__qwV0Swt6-dYUsGYPTvLq_k69JV_LHh5w=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
     "game_name": "ポケットモンスター プラチナ"
   },
@@ -27,7 +27,7 @@
     "Title": "ポケットモンスター ハートゴールド・ソウルシルバー -金ネジキ-",
     "shortTitle": "金ネジキ[HGSS]",
     "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
-    "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する[ポケットモンスター ハートゴールド・ソウルシルバー]",
+    "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する",
     "gameIMG": "https://yt3.ggpht.com/mL70OpfPfw7UrOREowIVGCFONs9LAi8eo7Qg4gDy__qwV0Swt6-dYUsGYPTvLq_k69JV_LHh5w=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
     "game_name": "ポケットモンスター プラチナ"
   },
@@ -35,8 +35,48 @@
     "Title": "ポケットモンスター エメラルド -金ダツラ-",
     "shortTitle": "金ダツラ",
     "thumnail": "https://i.ytimg.com/vi/fUi6uKRd1XA/hqdefault.jpg",
-    "description": "「バトルファクトリー」のファクトリーヘッドの42戦目のフロンティアブレーン「ダツラ」に勝利する[ポケットモンスター エメラルド]",
+    "description": "「バトルファクトリー」のファクトリーヘッドの42戦目のフロンティアブレーン「ダツラ」に勝利する",
     "gameIMG": "https://yt3.ggpht.com/_ilHfmg76S4Vkaz3Rwe708IWtof4EEndppoIBMc-fjycwvMj7-AJ8eRYzq7Ai5cL5TQnyhnyyAM=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
     "game_name": "ポケットモンスター エメラルド"
+  },
+  {
+    "Title": "Getting Over Itをクリアする",
+    "shortTitle": "-壺-",
+    "thumnail": "https://yt3.ggpht.com/kBgpXBBxZopXpM7zVpQr-qToWCBX3f3t5Bp6FncwEq-TWPPLC0iIMYvfgCO7D9UWqHPPgW8-=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "description": "Getting Over It with Bennett Foddy をクリアする",
+    "gameIMG": "https://yt3.ggpht.com/kBgpXBBxZopXpM7zVpQr-qToWCBX3f3t5Bp6FncwEq-TWPPLC0iIMYvfgCO7D9UWqHPPgW8-=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "Getting Over It with Bennett Foddy"
+  },
+  {
+    "Title": "Jump Kingをクリアする",
+    "shortTitle": "Jump King",
+    "thumnail": "https://yt3.ggpht.com/AayicqqUYjFa5b2Et3nvjZ8KMd7YFsIUA5rtqx8NK3elYpxbVlCzloo-gL_54QGC-WUbOZUREqA=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "description": "Jump Kingをクリアする",
+    "gameIMG": "https://yt3.ggpht.com/AayicqqUYjFa5b2Et3nvjZ8KMd7YFsIUA5rtqx8NK3elYpxbVlCzloo-gL_54QGC-WUbOZUREqA=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "Jump King"
+  },
+  {
+    "Title": "パワフェス難易度達人クリア",
+    "shortTitle": "パワフェス達人",
+    "thumnail": "https://yt3.ggpht.com/W8_02_wFk2KlIRnfKLrDknXVinMB94SKehFtlFwjcjO62kx-Yvjh8J9wa8UwHXImYPefnmp1UCY=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "description": "モード：パワフェスの難易度達人をクリアする",
+    "gameIMG": "https://yt3.ggpht.com/W8_02_wFk2KlIRnfKLrDknXVinMB94SKehFtlFwjcjO62kx-Yvjh8J9wa8UwHXImYPefnmp1UCY=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "eBASEBALLパワフルプロ野球2020"
+  },
+  {
+    "Title": "パワフェス難易度達人クリア",
+    "shortTitle": "パワフェス達人",
+    "thumnail": "https://yt3.ggpht.com/0pKtg2fzs-fkHBJ4Oua5ppXcRGdRPP_WRgpe52250RErQ4IsW7auxGJCqJ9N2UaO9cizQYwR=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "description": "モード：パワフェスの難易度達人をクリアする",
+    "gameIMG": "https://yt3.ggpht.com/0pKtg2fzs-fkHBJ4Oua5ppXcRGdRPP_WRgpe52250RErQ4IsW7auxGJCqJ9N2UaO9cizQYwR=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "実況パワフルプロ野球2018"
+  },
+  {
+    "Title": "パワフェス難易度達人クリア",
+    "shortTitle": "パワフェス達人",
+    "thumnail": "https://yt3.ggpht.com/OywGWjqdvzRvTrVJG0G5HodMuJ0vW1hEBu1lKRXVDoJsxdiBqZnsrYZFJyFYgMfaWoFi6P0OxA=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "description": "モード：パワフェスの難易度達人をクリアする",
+    "gameIMG": "https://yt3.ggpht.com/OywGWjqdvzRvTrVJG0G5HodMuJ0vW1hEBu1lKRXVDoJsxdiBqZnsrYZFJyFYgMfaWoFi6P0OxA=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "実況パワフルプロ野球2016"
   }
 ]
