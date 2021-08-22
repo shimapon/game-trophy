@@ -40,7 +40,7 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
 
   return (
     <Layout>
-      <div>
+      <div className="text-white">
         <div className="relative">
           <Link href="/" passHref>
             <div className="absolute z-10 cursor-pointer">
@@ -62,7 +62,7 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
           </Link>
         </div>
         <p className="text-4xl text-center bg-gray-800 my-2">Game Trophy</p>
-        <div className="grid grid-flow-row grid-cols-2 gap-2">
+        <div className="grid grid-flow-row grid-cols-2 gap-2 mx-2">
           {gamesdata &&
             gamesdata.map((gamedata) => {
               return (
@@ -76,7 +76,7 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
                   <img
                     src={gamedata.thumnail}
                     alt={gamedata.shortTitle + "IMG"}
-                    className="opacity-50"
+                    className="opacity-60"
                   />
                   <p className="whitespace-nowrap font-serif text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-base p-2 opacity-100 border-solid border-2">
                     {gamedata.shortTitle}

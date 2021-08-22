@@ -27,7 +27,7 @@ const contentsList = (
 
   return content.map((data: Content) => {
     return (
-      <div
+      <button
         className="relative m-4"
         key={data.title + "trophy"}
         onClick={() => handleonClick(data)}
@@ -43,7 +43,7 @@ const contentsList = (
         >
           {check(data.title)}
         </p>
-      </div>
+      </button>
     );
   });
 };

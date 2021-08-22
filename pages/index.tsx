@@ -124,7 +124,7 @@ const Index: React.FC<Props> = ({ streamers }) => {
                       <img
                         src={streamer.bannerURL}
                         alt={streamer.name}
-                        className="opacity-75 object-cover w-full h-20 group-hover:opacity-30"
+                        className="opacity-75 object-cover w-full h-20 group-hover:opacity-50"
                       />
                       <p className="whitespace-nowrap font-serif text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-base p-2 opacity-100 border-solid border-2">
                         {check(streamer.name)}
