@@ -20,7 +20,7 @@ export const Layout: React.FC<Props> = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="md:w-1/3 mx-auto "
+        className="lg:w-1/3 md:w-2/3 mx-auto "
         style={{ minHeight: "-webkit-fill-available" }}
       >
         {children}

@@ -40,7 +40,7 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
 
   return (
     <Layout>
-      <div className="text-white">
+      <div className=" text-white">
         <div className="relative">
           <Link href="/" passHref>
             <div className="absolute z-10 cursor-pointer">
@@ -61,8 +61,9 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
             </div>
           </Link>
         </div>
-        <p className="text-4xl text-center bg-gray-800 my-2">Game Trophy</p>
-        <div className="grid grid-flow-row grid-cols-2 gap-2 mx-2">
+        <p className="text-4xl text-center bg-gray-600 my-2">Game Trophy</p>
+
+        <div className="grid grid-flow-row grid-cols-1 gap-2 mx-6">
           {gamesdata &&
             gamesdata.map((gamedata) => {
               return (
@@ -70,17 +71,47 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
                   onClick={() =>
                     handleClickTrophy(gamedata, setShowModal, setModalContent)
                   }
-                  className="relative"
+                  className=" bg-gray-700 shadow-md  rounded-3xl p-4 group"
                   key={gamedata.Title + "_key"}
                 >
-                  <img
-                    src={gamedata.thumnail}
-                    alt={gamedata.shortTitle + "IMG"}
-                    className="opacity-70 object-cover h-24 w-full"
-                  />
-                  <p className="whitespace-nowrap font-serif text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-base p-2 opacity-100 border-solid border-2">
-                    {gamedata.shortTitle}
-                  </p>
+                  <div className="flex">
+                    <div className="flex-1 h-full w-full">
+                      <img
+                        src={gamedata.thumnail}
+                        alt={gamedata.shortTitle + "IMG"}
+                        className="object-cover h-32 w-full rounded-2xl group-hover:opacity-50"
+                      />
+                    </div>
+                    <div className="flex-1 ml-3 justify-evenly py-2">
+                      <div className="flex flex-wrap ">
+                        <p className="text-white flex-auto text-lg md:text-xl font-bold font-serif">
+                          {gamedata.shortTitle}
+                        </p>
+                        <div className="w-full text-xs text-white font-medium text-right hidden md:block ">
+                          {gamedata.game_name}
+                        </div>
+                      </div>
+                      <div className="flex pt-4  text-sm text-gray-500">
+                        <div className="flex-1 inline-flex">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-5 w-5 mr-2"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                            />
+                          </svg>
+                          <p className="">難易度</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </button>
               );
             })}
@@ -91,7 +122,10 @@ const TrophyList: React.FC<Props> = ({ gamesdata }) => {
             className="fixed inset-0 bg-black flex items-center justify-center"
             style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
           >
-            <div className="bg-gray-100 shadow m-4 z-10 w-full p-1 h-96 overflow-y-auto">
+            <div
+              onClick={(e) => e.stopPropagation()}
+              className="bg-gray-100 shadow m-4 z-10 w-full p-1 h-2/3 overflow-y-auto"
+            >
               {modalContent && (
                 <div className="">
                   <div className="bg-gray-200">

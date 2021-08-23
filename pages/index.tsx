@@ -58,14 +58,13 @@ const Index: React.FC<Props> = ({ streamers }) => {
       <div>
         {/* アプリの説明 */}
         <p className="text-2xl text-center my-3 text-blue-400">アプリの説明</p>
-        <div className="bg-indigo-200 h-36">
+        <div className="bg-indigo-200 h-44 mx-4">
           <p className="text-lg">
             大人でもクリアが難しいゲーム・ゲームの一部のコンテンツに加え,
             ストリーマー独自のいろいろな縛りをもうけたゲームなどの「トロフィー」を揃えてあなたのプロフィールを作りましょう！！
           </p>
         </div>
         {/* あなたのプロフィール */}
-
         <p className="text-2xl text-center my-3 text-blue-400">
           プロフィールを作成する
         </p>
@@ -135,6 +134,8 @@ const Index: React.FC<Props> = ({ streamers }) => {
               }
             )}
         </div>
+        {/* Trophy一覧 */}
+
         <p className="text-2xl text-center my-3 text-blue-400">Trophy一覧</p>
 
         <Link href="/TrophyList" passHref>
@@ -146,7 +147,6 @@ const Index: React.FC<Props> = ({ streamers }) => {
         </Link>
         <div className="cursor-pointer h-8 mx-auto"></div>
       </div>
-      {/* Trophy一覧 */}
     </Layout>
   );
 };

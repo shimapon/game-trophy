@@ -28,8 +28,8 @@
     "shortTitle": "金ネジキ[HGSS]",
     "thumnail": "https://koku-byakunews.com/wp-content/uploads/2021/06/nejiki.jpg",
     "description": "「バトルファクトリー」のファクトリーヘッドの49戦目のフロンティアブレーン「ネジキ」に勝利する",
-    "gameIMG": "https://yt3.ggpht.com/mL70OpfPfw7UrOREowIVGCFONs9LAi8eo7Qg4gDy__qwV0Swt6-dYUsGYPTvLq_k69JV_LHh5w=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
-    "game_name": "ポケットモンスター プラチナ"
+    "gameIMG": "https://yt3.ggpht.com/JcSBVIlsSP3cpALu5Xf9HHnnRRarRZM2_yrSZIANgDgGAKs5lVb5Oa2f5NuMLrfC89LBgv2J0Q=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "ポケットモンスター ハートゴールド・ソウルシルバー"
   },
   {
     "Title": "ポケットモンスター エメラルド -金ダツラ-",
@@ -78,5 +78,13 @@
     "description": "モード：パワフェスの難易度達人をクリアする",
     "gameIMG": "https://yt3.ggpht.com/OywGWjqdvzRvTrVJG0G5HodMuJ0vW1hEBu1lKRXVDoJsxdiBqZnsrYZFJyFYgMfaWoFi6P0OxA=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
     "game_name": "実況パワフルプロ野球2016"
+  },
+  {
+    "Title": "SEKIRO ノーデスクリア",
+    "shortTitle": "SEKIRO ノーデス",
+    "thumnail": "https://yt3.ggpht.com/9RHBiEBJoReE8NeCm5hd4BwT8JTxQUA06l_rO6RfHjBER6JGMcs6fRlDl5eVRokOV-69Pra2XNU=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "description": "コンテニューすることなく、全ボスを倒す（回生可）",
+    "gameIMG": "https://yt3.ggpht.com/9RHBiEBJoReE8NeCm5hd4BwT8JTxQUA06l_rO6RfHjBER6JGMcs6fRlDl5eVRokOV-69Pra2XNU=s540-w390-h540-c-k-c0x00ffffff-no-nd-rj",
+    "game_name": "SEKIRO: SHADOWS DIE TWICE"
   }
 ]
