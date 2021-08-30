@@ -6,6 +6,10 @@ import { Layout } from "../../components/Layout";
 import YoutubeEmbed from "../../components/YoutubeEmbed";
 import { Streamer_TYPE, Content } from "../../data/type";
 
+type Props = {
+  sdata: Streamer_TYPE;
+};
+
 // 文字数制限
 const check = (text: string) => {
   if (text.length >= 6) {
@@ -48,10 +52,26 @@ const contentsList = (
   });
 };
 
-const Streamer: React.FC = () => {
-  const res = require("../../data/streamer.json");
-  const router = useRouter();
-  const streamer: Streamer_TYPE = res[String(router.query.id)];
+export async function getStaticPaths() {
+  const posts = await require("../../data/streamer.json");
+
+  const paths = posts.map((post: Object, index: number) => ({
+    params: { id: String(index) },
+  }));
+
+  return { paths, fallback: false };
+}
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const { params }: any = context;
+  const posts = await require("../../data/streamer.json");
+  const sdata = posts[params.id];
+
+  return { props: { sdata } };
+};
+
+const Streamer: React.FC<Props> = ({ sdata }) => {
+  const streamer: Streamer_TYPE = sdata;
 
   const [isComp, setIsComp] = useState(true);
   const [showModal, setShowModal] = useState(false);
