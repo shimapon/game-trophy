@@ -19,8 +19,6 @@ const You: React.FC = () => {
   const [twitchID, setTwitchID] = useState("");
   const [twitterID, setTwitterID] = useState("");
 
-  console.log(modalContent);
-
   const handleChange = (
     event: {
       target: { value: React.SetStateAction<string> };

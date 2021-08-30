@@ -60,8 +60,6 @@ const heading2 = (text: string, textcolor: string, Icon: any) => {
 };
 
 const Index: React.FC<Props> = ({ streamers }) => {
-  console.log(streamers);
-
   return (
     <Layout>
       <div>

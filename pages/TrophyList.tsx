@@ -34,7 +34,6 @@ const handleClickTrophy = (
 };
 
 const TrophyList: React.FC<Props> = ({ gamesdata }) => {
-  console.log(gamesdata);
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState<TrophyInfo | null>(null);
 

@@ -77,8 +77,6 @@ const Streamer: React.FC<Props> = ({ sdata }) => {
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState<Content | null>(null);
 
-  console.log(modalContent);
-
   return (
     <Layout>
       <div className="text-black">
