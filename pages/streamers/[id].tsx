@@ -81,7 +81,7 @@ const Streamer: React.FC<Props> = ({ sdata }) => {
 
   return (
     <Layout>
-      <div className="text-white">
+      <div className="text-black">
         {/* <p>userId: {router.query.id}</p> */}
         <div className="relative">
           <Link href="/" passHref>

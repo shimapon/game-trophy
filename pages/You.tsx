@@ -32,11 +32,11 @@ const You: React.FC = () => {
 
   return (
     <Layout>
-      <div className="text-white">
+      <div className="text-black">
         <div className="relative">
           {isEdit && (
             <Link href="/" passHref>
-              <div className="absolute z-10 cursor-pointer">
+              <div className="absolute z-10 cursor-pointer text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-8 w-8 m-2"
@@ -82,7 +82,7 @@ const You: React.FC = () => {
         </div>
         {isEdit && (
           <div>
-            <div className="mx-auto max-w-md px-6 py-12 bg-black border-0 shadow-lg sm:rounded-3xl">
+            <div className="mx-auto max-w-md px-6 py-12 bg-black border-0 shadow-lg">
               <h1 className="text-2xl font-bold mb-8">Edit</h1>
               <form id="form">
                 <div className="relative z-0 w-full mb-5">
