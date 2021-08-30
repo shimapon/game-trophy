@@ -237,7 +237,7 @@ const Streamer: React.FC<Props> = ({ sdata }) => {
                 className="fixed inset-0 bg-black flex items-center justify-center"
                 style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
               >
-                <div className="bg-gray-100 shadow m-4 z-10 w-full p-1">
+                <div className="bg-gray-100 shadow m-4 z-10 w-full lg:w-1/3 md:w-2/3 p-1">
                   {modalContent && (
                     <>
                       <div className="bg-gray-200">
