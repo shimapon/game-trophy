@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { GetStaticProps, GetStaticPaths } from "next";
 import Link from "next/link";
-import { Layout } from "../../components/Layout";
-import YoutubeEmbed from "../../components/YoutubeEmbed";
+import { Layout } from "components/Layout";
+import YoutubeEmbed from "components/YoutubeEmbed";
 import { Streamer_TYPE, Content } from "../../data/type";
 
 type Props = {

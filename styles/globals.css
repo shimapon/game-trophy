@@ -31,11 +31,6 @@ a {
 }
 
 .title::first-letter {
-  background: repeating-linear-gradient(
-    45deg,
-    white 0 2px,
-    transparent 2px 4px
-  );
   background-clip: text;
   -webkit-background-clip: text;
   /* color: transparent; */

@@ -1,6 +1,7 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
-import { Layout } from "../components/Layout";
+import { Layout } from "components/Layout";
+import { Disclosure } from "@headlessui/react";
 
 // ページコンポーネントに渡されるデータ
 type Props = {
@@ -117,11 +118,11 @@ const Index: React.FC<Props> = ({ streamers }) => {
               d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z"
             />
           </svg>
-          <b>難関</b>トロフィー
+          <b>難関</b>トロフィーを揃えよう
         </div>
 
         <div className="font-serif justify-center flex mx-auto p-3 text-3xl text-secondary-contrastText my-2 w-11/12 border-t-2 border-b-2 border-black">
-          <b>実況者</b>オリジナル
+          <b>実況者</b>オリジナルのトロフィー
           <svg
             className="h-8 w-8 ml-2"
             xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +185,7 @@ const Index: React.FC<Props> = ({ streamers }) => {
         </Link>
 
         <div className="relative h-0 my-8">
-          <div className="Block2 h-36 absolute" style={{ zIndex: -1 }}></div>
+          <div className="Block2 h-44 absolute" style={{ zIndex: -1 }}></div>
         </div>
         {/* Streamer一覧 */}
         <div className="bg-primary">
@@ -239,7 +240,7 @@ const Index: React.FC<Props> = ({ streamers }) => {
 
       <div className="relative h-0 my-8">
         <div
-          className="Block2 h-36 absolute -top-20"
+          className="Block2 h-44 absolute -top-20"
           style={{ zIndex: -1 }}
         ></div>
       </div>
@@ -261,18 +262,127 @@ const Index: React.FC<Props> = ({ streamers }) => {
           />
         </svg>
       )}
+
+      <h3 className="w-10/12 mx-auto text-white border-white text-xl font-bold border-2 p-2 whitespace-nowrap text-center">
+        Trophy条件
+      </h3>
+
+      <div className="w-10/12 mx-auto my-2">
+        <div className="my-2">
+          <Disclosure>
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>ゲームのみ</span>
+                  {/*
+                  Use the `open` render prop to rotate the icon when the panel is open
+                */}
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={
+                      `${open ? "transform rotate-90" : ""}` + " h-6 w-6"
+                    }
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 15l7-7 7 7"
+                    />
+                  </svg>
+                </Disclosure.Button>
+
+                <Disclosure.Panel className="px-4 mt-1 pt-4 pb-2 text-sm text-gray-500 bg-white rounded">
+                  ゲーム以外の用意を必要としない
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+        </div>
+        <div className="my-2">
+          <Disclosure>
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>1 コンテンツ</span>
+                  {/*
+                  Use the `open` render prop to rotate the icon when the panel is open
+                */}
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={
+                      `${open ? "transform rotate-90" : ""}` + " h-6 w-6"
+                    }
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 15l7-7 7 7"
+                    />
+                  </svg>
+                </Disclosure.Button>
+
+                <Disclosure.Panel className="px-4 mt-1 pt-4 pb-2 text-sm text-gray-500 bg-white rounded">
+                  1コンテンツと区切れるモノ．
+                  <br />
+                  例えば，時間が長めの全体的に難易度が高いゲームをクリアなどは対象にしない．
+                  <br />
+                  ・クリア時間が（練習含め）1時間以上かかると思われるもの
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+        </div>
+        <div className="my-2">
+          <Disclosure>
+            {({ open }) => (
+              <>
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-purple-100 rounded-lg hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>全てのプレイヤーに公平</span>
+                  {/*
+                  Use the `open` render prop to rotate the icon when the panel is open
+                */}
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={
+                      `${open ? "transform rotate-90" : ""}` + " h-6 w-6"
+                    }
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M5 15l7-7 7 7"
+                    />
+                  </svg>
+                </Disclosure.Button>
+
+                <Disclosure.Panel className="px-4 mt-1 pt-4 pb-2 text-sm text-gray-500 bg-white rounded">
+                  オンラインなど，自身がどうにもできない要素で難易度が大きく変動するものは対象としない．
+                </Disclosure.Panel>
+              </>
+            )}
+          </Disclosure>
+        </div>
+      </div>
+
       <Link href="/TrophyList" passHref>
         <div className="text-center text-4xl text-primary-contrastText">
           <button className="border-primary-contrastText border-double border-8 mx-auto cursor-pointer w-10/12 h-32 bg-primary-dark bg-opacity-90 rounded">
-            <div
-              className="flex flex-initial mx-auto w-max font-bold"
-              style={{
-                backgroundImage:
-                  "-webkit-linear-gradient(315deg,#b8751e 0%, #ffce08 37%,  #fefeb2 47%,  #fafad6 50%, #fefeb2 53%,  #e1ce08 63%,  #b8751e 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
+            <div className="flex flex-initial mx-auto w-max font-bold">
               Trophy List
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -292,8 +402,6 @@ const Index: React.FC<Props> = ({ streamers }) => {
           </button>
         </div>
       </Link>
-
-      <div className="cursor-pointer h-8 mx-auto"></div>
     </Layout>
   );
 };

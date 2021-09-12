@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { GetStaticProps, GetStaticPaths } from "next";
 import Link from "next/link";
-import { Layout } from "../components/Layout";
+import { Layout } from "components/Layout";
 
 const You: React.FC = () => {
   const [isComp, setIsComp] = useState(true);
